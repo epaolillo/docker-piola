@@ -6,7 +6,7 @@ RUN apt-get -y update && apt-get upgrade -y
 RUN apt-get -y install --fix-missing apt-utils nano wget dialog \
     build-essential git curl libcurl3 libcurl3-dev zip \
     libmcrypt-dev libsqlite3-dev libsqlite3-0 mysql-client \
-    zlib1g-dev libicu-dev libfreetype6-dev libjpeg62-turbo-dev libpng-dev \
+    zlib1g-dev ffmpeg libicu-dev libfreetype6-dev libjpeg62-turbo-dev libpng-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Composer
